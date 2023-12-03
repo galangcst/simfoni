@@ -1,28 +1,23 @@
+/* Your existing styles here */
+.job-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border: 1px solid black;
+  flex-direction: column;
+  text-align: center;
+}
 
-    /* Your existing styles here */
-    .job-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+.container {
+  justify-content: center;
+  margin: 20px;
+  border: 1px solid black;
+  flex-direction: row;
+}
 
-        margin: 20px;
-        border: 1px solid black;
-    }
-
-    .job-image {
-        max-height: 205px; /* Set the maximum height for the image */
-        margin-right: 10px;
-    }
-
-    .job-details {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .job-details h3 {
-        color: #3498db;
-        margin-bottom: 10px;
-    }
-
+.job-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}

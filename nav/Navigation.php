@@ -82,7 +82,7 @@ class Navigation {
 
         <div class="header">
             <div class="logo-container">
-                <img class="logo" src="umg logo.png" alt="University Logo">
+                <img class="logo" src="assets/umg logo.png" alt="University Logo">
                 <div class="university-info">
                     <p class="university-name">
                         Universitas Muhammadiyah Gresik
